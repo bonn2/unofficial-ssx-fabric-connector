@@ -1,4 +1,4 @@
-package unofficialssxfabricconnector.unofficialssxfabricconnector.client;
+package bonn2.unofficialssxfabricconnector.client;
 
 @net.fabricmc.api.Environment(net.fabricmc.api.EnvType.CLIENT)
 public class UnofficialSSXFabricConnectorClient {
