@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "unofficial-ssx-fabric-connector",
+  "version": "${version}",
+  "name": "Unofficial SSX Fabric Connector",
+  "description": "An unofficial port of https://github.com/ServerSelectorX/ServerSelectorX-Connector to fabric",
+  "authors": [
+    "bonn2"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "unofficialssxfabricconnector.unofficialssxfabricconnector.client.UnofficialSSXFabricConnectorClient"
+    ],
+    "main": [
+      "unofficialssxfabricconnector.unofficialssxfabricconnector.UnofficialSSXFabricConnector"
+    ]
+  },
+  "mixins": [
+    "Unofficial-SSX-Fabric-Connector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17"
+  }
+}
