@@ -3,23 +3,22 @@
   "id": "unofficial-ssx-fabric-connector",
   "version": "${version}",
   "name": "Unofficial SSX Fabric Connector",
-  "description": "An unofficial port of https://github.com/ServerSelectorX/ServerSelectorX-Connector to fabric",
+  "description": "An unofficial port of SSX-Connector",
   "authors": [
     "bonn2"
   ],
-  "contact": {},
-  "license": "GPL-3.0",
+  "contact": {
+    "repo": "https://github.com/bonn2/unofficial-ssx-fabric-connector"
+  },
+  "license": "MIT",
   "environment": "server",
   "entrypoints": {
-    "client": [
-      "bonn2.unofficialssxfabricconnector.client.UnofficialSSXFabricConnectorClient"
-    ],
     "main": [
       "bonn2.unofficialssxfabricconnector.UnofficialSSXFabricConnector"
     ]
   },
   "mixins": [
-    "Unofficial-SSX-Fabric-Connector.mixins.json"
+    "unofficial-ssx-fabric-connector.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.6",
