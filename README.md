@@ -1,4 +1,4 @@
-# unofficial-ssx-fabric-connector
+# Unofficial-SSX-Fabric-Connector
 An unofficial port of https://github.com/ServerSelectorX/ServerSelectorX-Connector to fabric
 
 This is a sactionioned unofficial port that allows you to connect a sub-server to one hub server and send report playercount, max playercount, and online status
